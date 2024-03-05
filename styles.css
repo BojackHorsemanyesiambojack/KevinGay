@@ -1,0 +1,31 @@
+@keyframes rot{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+body{
+    background-color: black;
+    justify-content: center;
+.heads{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    #kevin{
+        background:url(./Imagen\ de\ WhatsApp\ 2024-03-05\ a\ las\ 00.21.50_1606ce6b.jpg);
+        height: 30rem;
+        width: 30rem;        
+        animation-name: rot;
+        animation-duration:5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        background-size: cover;
+    }
+
+    #Antonio{
+
+    }
+}
+}
